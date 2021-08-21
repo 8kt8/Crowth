@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Crowth</string>
+    <string name="title_home">Home</string>
+    <string name="title_explorer">Explorer</string>
+    <string name="title_net_of_nets">Net of Nets</string>
+    <string name="title_activity">Activity</string>
+    <string name="title_post_a_job">Post a job</string>
+
+    <string name="search_hint">Senior Project Manager, London</string>
+    <string name="black_live_matter">Black Lives Matter</string>
+    <string name="help_friends_and_get_paid">Help friends and get paid</string>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.crowth.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/navigation_explorer"
+        android:name="com.example.crowth.ui.explorer.ExplorerFragment"
+        android:label="@string/title_explorer"
+        tools:layout="@layout/fragment_explorer"/>
+    <fragment
+        android:id="@+id/navigation_post_a_job"
+        android:name="com.example.crowth.ui.postajob.PostAJobFragment"
+        android:label="@string/title_post_a_job"
+        tools:layout="@layout/fragment_post_a_job"/>
+    <fragment
+        android:id="@+id/navigation_net_of_nets"
+        android:name="com.example.crowth.ui.netofnets.NetOfNetsFragment"
+        android:label="@string/title_net_of_nets"
+        tools:layout="@layout/fragment_net_of_nets"/>
+
+    <fragment
+        android:id="@+id/navigation_activity"
+        android:name="com.example.crowth.ui.activity.ActivityFragment"
+        android:label="@string/title_activity"
+        tools:layout="@layout/fragment_activity"/>
+
+</navigation>
